@@ -1,13 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/fontawesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Hackathon</title>
+</head>
 <body>
+    
+  <div class="comments-container">
+    
 
+    <ul id="comments-list" class="comments-list">
+      <li>
+        <div class="comment-main-level"> 
+          
+          <div class="comment-avatar"><img src="images/MicrosoftTeams-image (1).png" alt=""></div>
+          
+          <div class="comment-box">
+            <div class="comment-head">
+              <h6 class="comment-name"><a href="http://creaticode.com/blog">Patricia E. Wiggins</a></h6>
+              <span>2 months ago</span>
+              <i class="fa fa-reply"> Reply</i>
+              
+            </div>
+            <div class="comment-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="comment-main-level">
+            
+            <div class="comment-avatar"><img src="images/MicrosoftTeams-image (2).png" alt=""></div>
+            
+            <div class="comment-box">
+              <div class="comment-head">
+                <h6 class="comment-name"><a href="http://creaticode.com/blog">Sandra A. Lamb</a></h6>
+                <span>one month ago</span>
+                <i class="fa fa-reply"> Reply</i>
+                
+              </div>
+              <div class="comment-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              </div>
+            </div>
+          </div>
+        
+        <ul class="comments-list reply-list">
+          <li>
+            
+            <div class="comment-avatar"><img src="images/MicrosoftTeams-image (3).png" alt=""></div>
+            
+            <div class="comment-box">
+              <div class="comment-head">
+                <h6 class="comment-name"><a href="http://creaticode.com/blog">Brian V. Ober</a></h6>
+                <span>2 weeks ago</span>
+                <i class="fa fa-reply"> Reply</i>
+                
+              </div>
+              <div class="comment-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </div>
+            </div>
+          </li>
 
-<script src="scripts/main.js"></script>
-<button>
-    name
-</button>
+          <li>
+            
+            <div class="comment-avatar"><img src="images/MicrosoftTeams-image (4).png" alt=""></div>
+            
+            <div class="comment-box">
+              <div class="comment-head">
+                <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Laura W. Bolton</a></h6>
+                <span>1 day ago</span>
+                
+                <i class="fa fa-pencil"> Edit</i>
+                <i style="color: #FF2929DE;" class="fa fa-trash" aria-hidden="true"> Delete</i>
+                
+                
+              </div>
+              <div class="comment-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
 
+      <li>
+        
+        <div class="comment-main-level">
+            
+          <div class="comment-avatar"><img src="images/MicrosoftTeams-image (5).png" alt=""></div>
+          
+          <div class="comment-box">
+            <form action="/form/submit" method="POST">
+                <textarea style="color: #B6B6B6;" id="message" class="comment" value="">Add a comment...</textarea>
+                
+                <div class="send">
+                  <input type="submit" name="submit" value="Send">
+                </div>
+              </form>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
