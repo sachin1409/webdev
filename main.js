@@ -1,14 +1,22 @@
-const inputs = document.querySelectorAll('.comment');
 
-for (const input of inputs) {
+      // function send() {
+      //   let uname = document.querySelector("#uname");
+      //   console.log([uname.value]);
+        
+      //  }
 
-  input.setAttribute('required', '');
+ 
 
-}
+const btn = document.getElementById('d');
+btn.addEventListener('click', function handleClick(event) {
 
-const textarea = document.getElementById('message');
-$(document).ready(function(){
-  $("textarea").click(function(){
-    textarea.value='';
-  });
+  event.preventDefault();
+const clear = document.getElementById('uname');
+ console.log([clear.value]);
+  clear.value = '';
 });
+
+
+function clicked(){
+  alert('Comment Added Successfully as -'+uname.value);
+}
