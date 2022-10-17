@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/fontawesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>Hackathon</title>
@@ -97,16 +92,15 @@
 
       <li>
         
-        <div class="comment-main-level">
-            
+        <div class="comment-main-level">  
           <div class="comment-avatar"><img src="images/MicrosoftTeams-image (5).png" alt=""></div>
-          
           <div class="comment-box">
-            <form action="/form/submit" method="POST">
-                <textarea style="color: #B6B6B6;" id="message" class="comment" value="">Add a comment...</textarea>
-                
+
+            
+            <form action="" method="get">
+                <textarea style="color: #B6B6B6;" id="uname" class="comment" placeholder="Add a comment....." required></textarea>
                 <div class="send">
-                  <input type="submit" name="submit" value="Send">
+                  <input type="button" value="submit" id ="d"  onclick="clicked()" />
                 </div>
               </form>
             </div>
