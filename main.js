@@ -16,6 +16,7 @@ const clear = document.getElementById('uname'); //comment box id
 
 //ALERT-POP UP
 function clicked(){
+  console.log(uname);
   if(uname.value.length==0) {
     alert('PLEASE ADD A COMMENT');
   }
