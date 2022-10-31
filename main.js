@@ -10,9 +10,6 @@ function clicked() {
   //Comment List
 
   let commentBoxValue = document.getElementById('uname').value;
-  let h2 = document.createElement("h2");
-  let text = document.createTextNode(commentBoxValue);
-  
  document.getElementById("unordered").innerHTML=(`Comment is :${commentBoxValue}`);
 
 
